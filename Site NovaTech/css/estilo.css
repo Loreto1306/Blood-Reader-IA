@@ -388,9 +388,7 @@ a div.box-contact-text{
     }
 }
 
-@media screen and (max-width: 890px){
-    .container-header .container-menu{
-    }
+@media screen and (max-width: 890px){   
     
     .container-footer .container-menu-footer{
         display: grid;
@@ -398,6 +396,12 @@ a div.box-contact-text{
         grid-template-rows: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
         margin: 40px;
         font-size: 12px;
+    }
+
+    .container-footer{
+        
+        background-image: linear-gradient(to right, #283043, #273046);
+        background-color: #283043
     }
 
     .nav-footer-1{
